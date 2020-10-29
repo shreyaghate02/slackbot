@@ -1,0 +1,26 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "A simple Slackbot that displays jokes, modal to request leave and mark attendance",
+  "main": "SlackBot.js",
+  "scripts": {
+    "start": "nodemon SlackBot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:shreyaghate02/simple-slackbot.git"
+  },
+  "author": "Shreya Ghate",
+  "license": "MIT",
+  "bugs": {
+    "url": "git@github.com:shreyaghate02/simple-slackbot.git/issues"
+  },
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/interactive-messages": "^1.7.0",
+    "@slack/web-api": "^5.13.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  }
+}
